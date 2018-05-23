@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity7">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:text="Dėl griežtesnės teisinės atsakomybės už žiaurų elgesį su gyvūnais:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        tools:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="330dp"
+        android:layout_height="117dp"
+        android:text="Sukrėsti gyvūnų skriaudikams, žudikams ir kankintojams skiriamos atsakomybės menkumo, o dažnu atveju – ir visiško jos nebuvimo, prašome Lietuvos Respublikos įstatymų leidėjų sugriežtinti šią atsakomybę, atitinkamai pakeičiant 310-ąjį Baudžiamojo kodekso straipsnį: 310 straipsnis. Žiaurus elgesys su gyvūnais"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="189dp"
+        android:layout_height="23dp"
+        android:text="Papildoma informacija"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="230dp"
+        android:layout_height="23dp"
+        android:text="Autorius:	Marius Kundrotas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="232dp"
+        android:layout_height="87dp"
+        android:text="Adresatas:	Lietuvos Respublikos Prezidentė. Lietuvos Respublikos Seimas. Lietuvos Respublikos Seimo frakcijos. Lietuvos Respublikos Seimo nariai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="231dp"
+        android:layout_height="42dp"
+        android:text="Galima pasirašyti iki:	2018.05.12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+        <Button
+            android:id="@+id/btn_act2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Pasirašyti" >
+        </Button>
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity9">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="276dp"
+        android:layout_height="24dp"
+        android:text="Kategorija:	Sportas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="278dp"
+        android:layout_height="41dp"
+        android:text="Adresatas:	Klaipėdos savivaldybė, Transporto skyrius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="277dp"
+        android:layout_height="22dp"
+        android:text="Autorius:	Ramūnas Pabrėža"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="274dp"
+        android:layout_height="27dp"
+        android:text="Papildoma informacija:"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="332dp"
+        android:layout_height="186dp"
+        android:text='Siūlau šį "413 Pėsčiųjų ir dviračių takas" ženklą pakeisti "552 - Gyvenamoji zona" ženklu. Taip būtų užtikrinta pėsčiųjų pirmenybė kelyje. Pėstieji galėtu vaikščioti važiuojamąja dalimi, būtų draudžiama važiuoti greičiau nei 20km/h greičiu. Taip pat pastatyti ženklą "332 Sustoti draudžiama" šalia įvažiavimo esančioje teritorijoje. Tokiu būdu mašinos negaletų stovėti buvusioje žalioje vejoje ir galbūt ten ataugtų žolė. Taip pat sumažėtų pėsčiųjų srautas šiuo keliu, nes visi mašinas pasistatytų prie pačios vasaros estrados.'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="332dp"
+        android:layout_height="25dp"
+        android:text="Privažiavimas prie Vasaros Estrados:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        tools:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/btn_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Pasirašyti" >
+        </Button>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

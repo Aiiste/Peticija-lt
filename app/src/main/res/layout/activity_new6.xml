@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewActivity6">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="70dp"
+
+
+        android:text="Peticija.lt - tai vienintelis tinklapis Lietuvoje, suteikiantis galimybę visiems aktyviems piliečiams išreikšti savo požiūrį į rūpimus klausimus ir abejones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="90dp"
+
+
+        android:layout_marginTop="8dp"
+        android:text="Administratoriai - peticijos@gmail.com .  Pasiūlymai, pastabos, bendradarbiavimas, registruoti prašymai ir reklama susisiekti - peticijos@gmail.com.  Peticija.lt savo veiklą pradėjo dar  2007 metaisrugpjūčio 5 dieną. Tinklapį galima pasiekti peticija.lt ir peticijos.lt adresais"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="338dp"
+        android:layout_height="20dp"
+
+        android:text="Vieši pranešimai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:textColor="?android:attr/colorForeground" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="361dp"
+        android:layout_height="80dp"
+
+
+        android:text="Norėdami padėti piliečiams, pilietinėms organizacijoms ir neabejingiems žmonėms padėti atkreipti dėmėsį į iškeltas problemas suteikiame galimybę išplatinti viešą pranešimą peticija.lt tinklaraštyje."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="356dp"
+        android:layout_height="80dp"
+
+
+        android:text="Šis pranešimas gali būti skirtas valdžios, žiniasklaidai, institucijoms. Jame galėtų būti pranešta apie sukurtų peticijų veiksmingumą, ar kaip adresatai atsižvelgia į peticijoje išdėstytus argumentus bei problemas."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="356dp"
+        android:layout_height="90dp"
+
+
+        android:text="Taip pat galbūt yra organizuojama diskusija, protestoakcija ir kiti veiksmai ir norite, kad apie juos būtųsužinota. Viešus pranešimus galite siųsti peticijos@gmail.com. Pranešimas turi būti užrašytas taisyklinga lietuvių kalba bei nurodytas Vardas ir Pavardė."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+
+
+        android:text='*Registruoti prašymai: temoje laiškas turi prasidėti "Registruotas prašymas". Registruoto prašymo kaina 10 eur. '
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984"
+        tools:textColor="?android:attr/colorForeground" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984"
+        tools:textColor="?android:attr/colorForeground" />
+
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
